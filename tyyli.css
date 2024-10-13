@@ -1,0 +1,112 @@
+/* General body styling */
+body {
+    background-color: #ffe6e6; /* Light pastel pink background */
+    color: #333; /* Dark text for readability */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #f8d5d5; /* Slightly darker pastel pink */
+    color: #fff; /* White text for contrast */
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a shadow for effect */
+}
+
+/* Navigation bar styling */
+nav {
+    background-color: #ffc2c2; /* Medium pastel pink */
+    text-align: center;
+    padding: 40px;
+}
+
+nav ul {
+    padding-left: 0;
+    list-style-type: none; /* Remove bullets */
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #ffb3b3; /* Slightly darker pastel pink on hover */
+    color: white;
+    border-radius: 10px;
+}
+
+/* Main content styling */
+main {
+    background-color: #ffe6e6; /* Light pastel pink */
+    color: #333;
+    padding: 40px 10%;
+    text-align: justify;
+    min-height: calc(100vh - 160px); /* Ensures content takes at least full view height minus header/footer */
+    box-sizing: border-box;
+    
+}
+
+/* Button styling */
+button {
+    background-color: #ffb3b3; /* Darker pastel pink */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #febbbb; /* Even darker pastel pink on hover */
+}
+
+/* Footer styling */
+footer {
+    background-color: #ffcccc; /* Slightly darker pastel pink */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1); /* Shadow for effect */
+}
+
+/* Card styling for sections */
+.card {
+    background-color: #ffc2c2; /* Medium pastel pink */
+    color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    main {
+        padding: 20px 5%;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+}
