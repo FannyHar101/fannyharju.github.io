@@ -1,6 +1,6 @@
 /* General body styling */
 body {
-    background-color: #ffe6e6; /* Light pastel pink background */
+    background-color: #FFF0F5; /* Light pastel pink background */
     color: #333; /* Dark text for readability */
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -9,8 +9,8 @@ body {
 
 /* Header styling */
 header {
-    background-color: #f8d5d5; /* Slightly darker pastel pink */
-    color: #fff; /* White text for contrast */
+    background-color: #FFE4E1; /* Slightly darker pastel pink */
+    color: #333; /* Black text for contrast */
     text-align: center;
     padding: 20px 0;
     font-size: 24px;
@@ -20,7 +20,7 @@ header {
 
 /* Navigation bar styling */
 nav {
-    background-color: #ffc2c2; /* Medium pastel pink */
+    background-color: #FFB6C1; /* Medium pastel pink */
     text-align: center;
     padding: 40px;
 }
@@ -37,7 +37,7 @@ nav li {
 }
 
 nav a {
-    color: white;
+    color: #333;
     text-decoration: none;
     font-weight: bold;
     padding: 15px;
@@ -46,13 +46,13 @@ nav a {
 
 nav a:hover {
     background-color: #ffb3b3; /* Slightly darker pastel pink on hover */
-    color: white;
+    color: #333;
     border-radius: 10px;
 }
 
 /* Main content styling */
 main {
-    background-color: #ffe6e6; /* Light pastel pink */
+    background-color: #FFE4E1; /* Light pastel pink */
     color: #333;
     padding: 40px 10%;
     text-align: justify;
@@ -64,7 +64,7 @@ main {
 /* Button styling */
 button {
     background-color: #ffb3b3; /* Darker pastel pink */
-    color: white;
+    color: #333;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -81,7 +81,7 @@ button:hover {
 /* Footer styling */
 footer {
     background-color: #ffcccc; /* Slightly darker pastel pink */
-    color: white;
+    color: #333;
     text-align: center;
     padding: 20px 0;
     width: 100%;
